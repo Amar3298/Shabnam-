@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- need to work on fav icon -->
+    <!-- <link rel="icon" type="image/x-icon" href="../img/sa logo/cm3.png"> -->
+    <title>Greeting Card</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <!-- <div class="back1" id="back"> -->
+    <!-- <i class="fa fa-birthday-cake fa-lg ad"></i> -->
+    <!-- <img src="./static/img/cake-candles-solid.jpg" alt="" class="ad" height="25px"> -->
+    <!-- </div> -->
+    <div class="card">
+        <div class="back">
+            <center><img src="./static/img/actuall photos/shabnam_1.jpg" alt="" width="300px"></center>
+        </div>
+        <div class="front">
+            <div class="cover-shape-large">
+                <div class="shape-diamond"></div>
+                <div class="shape-block"></div>
+            </div>
+            <div class="cover-shape-small">
+                <img src="./static/img/cake_cover.jpg" alt="" height="148px" width="178px">
+            </div>
+        </div>
+
+        <div class="text-container">
+            <p id="head">Happy Birthday! Wishing you a wonderful year ahead.</p>
+            <p style="font-size: 5px; font-family: 'Courier New', Courier, monospace;">
+            <p>
+                Hi Shabnam,
+
+                On your special day, We want to extend my warmest wishes for a happy and memorable birthday! Your
+                leadership and guidance have been invaluable to us, and We are grateful for the opportunity to work
+                alongside you.
+
+                I hope this year brings you joy, success, and fulfillment in all your endeavors. May your birthday be
+                filled with laughter, good company, and unforgettable moments.
+
+                Wishing you all the best,
+            </p>
+            </p>
+            <p>NS Reporting Team</p>
+        </div>
+    </div>
+    <script>
+        let open_landing_page = document.getElementById("back");
+
+        open_landing_page.addEventListener("click", () => {
+            window.open("photos_gallery.html", "_self");
+        });
+    </script>
+</body>
+
+</html>
